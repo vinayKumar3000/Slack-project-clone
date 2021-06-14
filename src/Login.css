@@ -1,0 +1,28 @@
+.login{
+    display:grid;
+    place-items: center;
+    height:100vh;
+    background-color:black;
+}
+.login__container {
+    padding:100px;
+    background-color:azure;
+    text-align:center;
+    border-bottom: 1px solid gray;
+}
+
+
+.login__container>img{
+    height:100px;
+    object-fit: contain;
+    margin-bottom: 40px;
+}
+.login__container>Button{
+    background-color: green;
+    color:white;
+    margin-top: 40px;
+}
+.login__container>Button:hover{
+    color:black;
+    background-color:purple;
+}

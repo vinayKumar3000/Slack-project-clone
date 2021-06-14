@@ -1,0 +1,44 @@
+.chat{
+    flex:0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    
+    background-color:azure;
+    
+}
+.chat__header{
+    display: flex ;
+    position: fixed;
+    right: 15px;
+    left: 260px;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    border-bottom: 1px solid lightgrey;
+    background-color:darkmagenta;
+    color:white;
+    
+}
+.chat__headerRight > p{
+    display: flex;
+    align-items:center;
+    font-size:14px;
+}
+.chat__headerRight > p >.MuiSvgIcon{
+    margin-right: 5px;
+    font-size:16px !important;
+}
+
+.chat__channelName{
+    text-transform: lowercase;
+    display:flex;
+    align-items:center;
+}
+.chat__channelName>.MuiSvgIcon{
+    margin-left: 10px;
+    font-size:18px;
+}
+.chat__Message{
+    overflow: hidden;
+}
